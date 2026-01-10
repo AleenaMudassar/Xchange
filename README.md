@@ -1,1 +1,1 @@
-# FinSighting
+# FinSighted
