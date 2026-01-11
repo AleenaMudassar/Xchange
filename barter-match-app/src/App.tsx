@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, RefreshCw, Check, X, User, MessageCircle, Send, ArrowLeft } from 'lucide-react';
 
-const BarterMatchSystem = () => {
+const Xchange = () => {
   const [currentUser, setCurrentUser] = useState(null);
   const [formData, setFormData] = useState({
     name: '',
@@ -197,7 +197,7 @@ const BarterMatchSystem = () => {
             <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <User className="text-blue-600" size={32} />
             </div>
-            <h1 className="text-3xl font-bold text-gray-800 mb-2">Welcome to Barter Match</h1>
+            <h1 className="text-3xl font-bold text-gray-800 mb-2">Welcome to Xchange</h1>
             <p className="text-gray-600">Create your profile to start finding trade partners</p>
           </div>
 
@@ -568,4 +568,4 @@ const BarterMatchSystem = () => {
   );
 };
 
-export default BarterMatchSystem;
+export default Xchange;
