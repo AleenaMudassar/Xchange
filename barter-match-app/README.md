@@ -7,7 +7,6 @@ A React web application for matching people who want to barter/trade services.
 ### Step 1: Install Dependencies
 
 ```bash
-cd /Users/aleenamudassar/Downloads/barter-match-app
 npm install
 ```
 
@@ -35,9 +34,6 @@ Open your browser and go to the URL shown in the terminal!
 ### Installation Steps
 
 1. **Navigate to project folder:**
-   ```bash
-   cd /Users/aleenamudassar/Downloads/barter-match-app
-   ```
 
 2. **Install dependencies:**
    ```bash
@@ -51,7 +47,7 @@ Open your browser and go to the URL shown in the terminal!
    ```
 
 4. **Open in browser:**
-   - The terminal will show a URL like `http://localhost:5173`
+   - The terminal will show a URL like `http://localhost:1234`
    - Open this URL in your web browser
    - The app will automatically reload when you make changes!
 
@@ -75,42 +71,6 @@ Open your browser and go to the URL shown in the terminal!
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
-
----
-
-## 📁 Project Structure
-
-```
-barter-match-app/
-├── src/
-│   ├── App.tsx          # Main component
-│   ├── main.tsx         # Entry point
-│   └── index.css        # Tailwind CSS
-├── index.html           # HTML template
-├── package.json         # Dependencies
-├── vite.config.ts       # Vite configuration
-├── tailwind.config.js   # Tailwind CSS config
-└── tsconfig.json        # TypeScript config
-```
-
----
-
-## 🔧 Troubleshooting
-
-**Issue: "command not found: npm"**
-- Install Node.js from https://nodejs.org/
-
-**Issue: "Port 5173 already in use"**
-- Vite will automatically use another port
-- Check the terminal for the correct URL
-
-**Issue: Module not found errors**
-- Make sure you ran `npm install`
-- Delete `node_modules` and `package-lock.json`, then run `npm install` again
-
-**Issue: TypeScript errors**
-- Make sure all dependencies are installed
-- Try `npm install` again
 
 ---
 
