@@ -1,4 +1,4 @@
-## Xchange ##
+## Xchange
 
 A React web application for matching people who want to barter/trade services.
 
